@@ -57,19 +57,24 @@ main {
     line-height: 30px;
 }
 
+.spans{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+
+}
 .banner{
     width: auto;
+    max-width: 80px;
     padding: 5px;
-    position: absolute;
-    bottom: 30px;
-    left: 50px;    
 }
 
 .discount{
     width: auto;
     padding: 5px;
-    position: absolute;
-    bottom: 30px;
 }
 
 .green{
