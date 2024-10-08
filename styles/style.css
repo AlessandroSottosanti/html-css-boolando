@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+margin: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border: 1px dashed black;
+width: 90%;
+gap: 20px;
+
+}
+
+.col{
+    width: calc(95% / 3);
+
+    /* debug */
+    height: 100px;
+    border: 1px dashed black;
+}
+
+.card{
+    position: relative;
+    flex-wrap: wrap;
+
+}
