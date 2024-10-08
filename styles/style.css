@@ -67,6 +67,10 @@ main {
     line-height: 30px;
 }
 
+.span:hover i{
+    color: red;
+}
+
 .spans {
     position: absolute;
     left: 0;
