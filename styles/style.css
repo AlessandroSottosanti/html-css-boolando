@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -31,15 +32,17 @@ main {
 .card {
     position: relative;
     flex-wrap: wrap;
-    
+    flex-direction: row;
+    font-size: small;
 }
 
 .card img {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    display: block;
-
+    display: flex;
+    flex-direction: row;  
+    gap: 10px;  
 }
 
 .span{
@@ -55,9 +58,29 @@ main {
 }
 
 .banner{
-
+    width: auto;
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;    
 }
 
 .discount{
-    
+    width: auto;
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.green{
+    background-color: green;
+    color: white;
+  
+}
+
+.red{
+    background-color: red;
+    color: white;
+   
+
 }
