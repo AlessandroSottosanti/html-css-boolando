@@ -225,9 +225,14 @@ header {
 }
 
 .icons a i {
-    color: white;
+    color: #E7E7E7;
 
 }
+
+.icons a i:hover, .navbar ul li a:hover {
+    color: #b0b0b0;
+}
+
 
 
 .logo {
